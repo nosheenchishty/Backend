@@ -1,0 +1,23 @@
+{
+  "name": "demo-backend-settings-preferences",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0"
+  }
+}
